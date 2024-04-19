@@ -3,9 +3,9 @@ import datetime
 
 app = Flask(__name__)
 
-@app.route('/<name>')
-def hello(name):
-    return f"Hello world from {name}"
+@app.route('/temesgentesfamichael')
+def hello():
+    return "Hello world from temesgentesfamichael"
 
 @app.route('/datetime')
 def get_datetime():
